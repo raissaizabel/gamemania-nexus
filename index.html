@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Loja Gamer - Vitrine</title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    
+
+    
+    <link href="https://fonts.googleapis.com/css2?family=Russo+One&family=Rajdhani:wght@400;700&family=Open+Sans:wght@400;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div id="header-container"></div>
+
+    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="img/gameplay.gif" class="d-block w-100" alt="Gameplay de jogo">
+            </div>
+            <div class="carousel-item">
+                <img src="img/arcade2.gif" class="d-block w-100" alt="Máquina de arcade">
+            </div>
+            <div class="carousel-item">
+                <img src="img/maos.gif" class="d-block w-100" alt="Mãos segurando controle">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    
+    <main class="fundo-azul-loja pb-5">
+
+
+
+
+
+        
+
+
+
+        <section class="container py-5">
+            <div class="d-flex justify-content-between align-items-end mb-3">
+                <h2 class="section-title mb-0">Consoles</h2>
+                <a href="consoles.html" class="link-ver-mais">Ver mais</a>
+            </div>
+            <div class="bg-section-accent bg-jogos-acessorios pt-3 pb-5"> 
+
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-5 g-3">
+                <div class="col">
+                    <div class="card h-100 product-card border-0 shadow-sm">
+                        <span class="badge-custom">DE QUALIDADE!</span>
+                        <div class="card-body text-center">
+                            <div class="stars mb-2">★★★★★</div>
+                            <img src="img/play five.png">
+                            <h5 class="card-title product-title">Console Playstation 5 Sony, SSD 825GB, Controle Sem Fio Dualsense, Edição Digital, Branco</h5>
+                            <div class="price-box mt-3">
+                                <span class="d-block fw-bold fs-5">R$2.499,00 à vista</span>
+                                <small class="text-muted">ou 3x de R$833,00 </small>
+                            </div>
+                            <a href="produto.html"><button class="btn btn-dark btn-buy mt-3 w-75 rounded-pill" onclick="adicionarAoCarrinho('Spider-Man 2')">COMPRAR</button>
+                       </a> </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card h-100 product-card border-0 shadow-sm">
+                        <span class="badge-custom">LONGAS HORAS!</span>
+                        <div class="card-body text-center">
+                            <div class="stars mb-2">★★★★★</div>
+                            <img src="img/xbox series s.png" class="img-fluid product-img mb-3" alt="The Last of Us">
+                            <h5 class="card-title product-title">Microsoft Xbox Series S 512gb Standard Cor Branco - Excelente (Recondicionado)</h5>
+                            <div class="price-box mt-3">
+                                <span class="d-block fw-bold fs-5">R$ 259,90 à vista</span>
+                                <small class="text-muted">ou 6x de R$ 43,31</small>
+                            </div>
+                            <button class="btn btn-dark btn-buy mt-3 w-75 rounded-pill" onclick="adicionarAoCarrinho('The Last of Us')">COMPRAR</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card h-100 product-card border-0 shadow-sm">
+                        <div class="card-body text-center">
+                            <div class="stars mb-2">★★★★☆</div>
+                            <img src="img/nintendo 2.png" class="img-fluid product-img mb-3" alt="Hogwarts Legacy">
+                            <h5 class="card-title product-title">Bundle Console Nintendo Switch 2 + Mario Kart World, Modelo Nacional de Tomada</h5>
+                            <div class="price-box mt-3">
+                                <span class="d-block fw-bold fs-5">R$4.463,91 à vista</span>
+                                <small class="text-muted">ou 8x de R$557,98 </small>
+                            </div>
+                            <button class="btn btn-dark btn-buy mt-3 w-75 rounded-pill" onclick="adicionarAoCarrinho('Hogwarts Legacy')">COMPRAR</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card h-100 product-card border-0 shadow-sm">
+                        <div class="card-body text-center">
+                            <div class="stars mb-2">★★★★★</div>
+                            <img src="img/play four.png" class="img-fluid product-img mb-3" alt="RDR2">
+                            <h5 class="card-title product-title">Console Sony Playstation 4 Ps4 Slim 1tb - Nfe E Garantia Preto (Recondicionado)</h5>
+                            <div class="price-box mt-3">
+                                <span class="d-block fw-bold fs-5">R$1.899 à vista</span>
+                                <small class="text-muted">ou 10x de R$189,90 </small>
+                            </div>
+                            <button class="btn btn-dark btn-buy mt-3 w-75 rounded-pill" onclick="adicionarAoCarrinho('RDR2')">COMPRAR</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card h-100 product-card border-0 shadow-sm">
+                        <div class="card-body text-center">
+                            <div class="stars mb-2">★★★★★</div>
+                            <img src="img/xbox series X.png" class="img-fluid product-img mb-3" alt="Gears of War 3">
+                            <h5 class="card-title product-title">Console Xbox Series X, 1TB, Microsoft, Preto - Rrt-00001</h5>
+                            <div class="price-box mt-3">
+                                <span class="d-block fw-bold fs-5">R$5.750 à vista</span>
+                                <small class="text-muted">12x de R$479,16 </small>
+                            </div>
+                            <button class="btn btn-dark btn-buy mt-3 w-75 rounded-pill" onclick="adicionarAoCarrinho('Gears of War 3')">COMPRAR</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
+
+
+
+
+
+<section class="container py-5">
+            <div class="d-flex justify-content-between align-items-end mb-3">
+                <h2 class="section-title mb-0">Periferícos</h2>
+                <a href="perifericos.html" class="link-ver-mais">Ver mais</a>
+            </div>
+            <div class="bg-section-accent bg-jogos-acessorios pt-3 pb-5"> 
+
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-5 g-3">
+                <div class="col">
+                    <div class="card h-100 product-card border-0 shadow-sm">
+                        <span class="badge-custom">DE QUALIDADE!</span>
+                        <div class="card-body text-center">
+                            <div class="stars mb-2">★★★★★</div>
+                            <img src="img/fonexx.png" class="img-fluid product-img mb-3" alt="Spider Man 2">
+                            <h5 class="card-title product-title">Headset Gamer Fifine H9, Som Surround 7.1, USB, Console e PC, Branco - H9W</h5>
+                            <div class="price-box mt-3">
+                                <span class="d-block fw-bold fs-5">R$ 169,99 à  vista</span>
+                                <small class="text-muted">ou 7x de R$ 28,57 </small>
+                            </div>
+                         <a href="produto2.html"><button class="btn btn-dark btn-buy mt-3 w-75 rounded-pill" onclick="adicionarAoCarrinho('Spider-Man 2')">COMPRAR</button>
+                        </a></div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card h-100 product-card border-0 shadow-sm">
+                        <span class="badge-custom">LONGAS HORAS!</span>
+                        <div class="card-body text-center">
+                            <div class="stars mb-2">★★★★★</div>
+                            <img src="img/mousee.png" class="img-fluid product-img mb-3" alt="The Last of Us">
+                            <h5 class="card-title product-title">Mouse Gamer Sem Fio Attack Shark X11, 22000 Dpi, 59g, Tri-mode Com Dock Magnético, RGB, Branco</h5>
+                            <div class="price-box mt-3">
+                                <span class="d-block fw-bold fs-5">R$ 299,90 à vista</span>
+                                <small class="text-muted">ou 10x de R$ 29,90 </small>
+                            </div>
+                            <button class="btn btn-dark btn-buy mt-3 w-75 rounded-pill" onclick="adicionarAoCarrinho('The Last of Us')">COMPRAR</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card h-100 product-card border-0 shadow-sm">
+                        <div class="card-body text-center">
+                            <div class="stars mb-2">★★★★☆</div>
+                            <img src="img/teclado rgb.png" class="img-fluid product-img mb-3" alt="Hogwarts Legacy">
+                            <h5 class="card-title product-title">Teclado Mecânico Gamer Redragon Kumara, Anti-Ghosting, RGB, Switch Outemu Brown, ABNT2, Preto, PT - K552RGB-1 (PT-BROWN)</h5>
+                            <div class="price-box mt-3">
+                                <span class="d-block fw-bold fs-5">R$ 155,99 à vista</span>
+                                <small class="text-muted">ou 7x de R$26,21 </small>
+                            </div>
+                            <button class="btn btn-dark btn-buy mt-3 w-75 rounded-pill" onclick="adicionarAoCarrinho('Hogwarts Legacy')">COMPRAR</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card h-100 product-card border-0 shadow-sm">
+                        <div class="card-body text-center">
+                            <div class="stars mb-2">★★★★★</div>
+                            <img src="img/fonexxx.png" class="img-fluid product-img mb-3" alt="RDR2">
+                            <h5 class="card-title product-title">Headset Gamer Havit, Drivers 53mm, Microfone Plugável, 3.5mm, PC, PS4, XBOX ONE, Preto - HV-H2002D</h5>
+                            <div class="price-box mt-3">
+                                <span class="d-block fw-bold fs-5">R$ 131,68 à vista</span>
+                                <small class="text-muted">ou 6x de R$ 25,81</small>
+                            </div>
+                            <button class="btn btn-dark btn-buy mt-3 w-75 rounded-pill" onclick="adicionarAoCarrinho('RDR2')">COMPRAR</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card h-100 product-card border-0 shadow-sm">
+                        <div class="card-body text-center">
+                            <div class="stars mb-2">★★★★★</div>
+                            <img src="img/teclado rgb branco.png" class="img-fluid product-img mb-3" alt="Gears of War 3">
+                            <h5 class="card-title product-title">Teclado Mecânico Gamer Redragon Kumara, Anti-Ghosting, RGB, Switch Outemu Blue, ABNT2, Branco - K552W-RGB (PT-BLUE)</h5>
+                            <div class="price-box mt-3">
+                                <span class="d-block fw-bold fs-5">R$ 209,79 à vista</span>
+                                <small class="text-muted">7x de R$ 27,42</small>
+                            </div>
+                            <button class="btn btn-dark btn-buy mt-3 w-75 rounded-pill" onclick="adicionarAoCarrinho('Gears of War 3')">COMPRAR</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
+
+
+
+
+
+
+
+        <section class="container py-5">
+            <div class="d-flex justify-content-between align-items-end mb-3">
+                <h2 class="section-title mb-0">Jogos</h2>
+                <a href="jogos.html" class="link-ver-mais">Ver mais</a>
+            </div>
+            <div class="bg-section-accent bg-jogos-acessorios pt-3 pb-5"> 
+
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-5 g-3">
+                <div class="col">
+                    <div class="card h-100 product-card border-0 shadow-sm">
+                        <span class="badge-custom">DE QUALIDADE!</span>
+                        <div class="card-body text-center">
+                            <div class="stars mb-2">★★★★★</div>
+                            <img src="img/miles e peter.png"height="100%" width="100%"  class="img-fluid product-img mb-3" alt="Spider Man 2">
+                            <h5 class="card-title product-title">Jogo Marvels Spider-Man 2 PlayStation 5 Mídia Física</h5>
+                            <div class="price-box mt-3">
+                                <span class="d-block fw-bold fs-5">R$ 199,90 à vista</span>
+                                <small class="text-muted">ou 4x de R$ 49,97</small>
+                            </div>
+                         <a href="produto3.html">  <button class="btn btn-dark btn-buy mt-3 w-75 rounded-pill" onclick="adicionarAoCarrinho('Spider-Man 2')">COMPRAR</button>
+                       </a>  </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card h-100 product-card border-0 shadow-sm">
+                        <span class="badge-custom">LONGAS HORAS!</span>
+                        <div class="card-body text-center">
+                            <div class="stars mb-2">★★★★★</div>
+                            <img src="img/the last of us part 1.png" height="100%"  class="img-fluid product-img mb-3" alt="The Last of Us">
+                            <h5 class="card-title product-title">The Last Of Us Part I Remake - Ps5 (Mídia Física)</h5>
+                            <div class="price-box mt-3">
+                                <span class="d-block fw-bold fs-5">R$ 259,90 à vista</span>
+                                <small class="text-muted">ou 6x de R$ 43,31</small>
+                            </div>
+                            <button class="btn btn-dark btn-buy mt-3 w-75 rounded-pill" onclick="adicionarAoCarrinho('The Last of Us')">COMPRAR</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card h-100 product-card border-0 shadow-sm">
+                        <div class="card-body text-center">
+                            <div class="stars mb-2">★★★★☆</div>
+                            <img src="img/hogwarts legacy 1.png" height="100%" width="100%" class="img-fluid product-img mb-3" alt="Hogwarts Legacy">
+                            <h5 class="card-title product-title">Hogwarts Legacy Standard Edition PS5 Mídia Física</h5>
+                            <div class="price-box mt-3">
+                                <span class="d-block fw-bold fs-5">R$ 79,90 à vista</span>
+                                <small class="text-muted">ou 3x de 26,63</small>
+                            </div>
+                            <button class="btn btn-dark btn-buy mt-3 w-75 rounded-pill" onclick="adicionarAoCarrinho('Hogwarts Legacy')">COMPRAR</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card h-100 product-card border-0 shadow-sm">
+                        <div class="card-body text-center">
+                            <div class="stars mb-2">★★★★★</div>
+                            <img src="img/red dead 2.png" height="100%" width="100%" class="img-fluid product-img mb-3" alt="RDR2">
+                            <h5 class="card-title product-title">Game Red Dead Redemption 2 Xbox One Mídia Física</h5>
+                            <div class="price-box mt-3">
+                                <span class="d-block fw-bold fs-5">R$ 209,68 à vista</span>
+                                <small class="text-muted">ou 5x de 41,93</small>
+                            </div>
+                            <button class="btn btn-dark btn-buy mt-3 w-75 rounded-pill" onclick="adicionarAoCarrinho('RDR2')">COMPRAR</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card h-100 product-card border-0 shadow-sm">
+                        <div class="card-body text-center">
+                            <div class="stars mb-2">★★★★★</div>
+                            <img src="img/gears of war 3.png" height="100%" width="100%" class="img-fluid product-img mb-3" alt="Gears of War 3">
+                            <h5 class="card-title product-title">Jogo Gears of War 3 Xbox 360 Mídia Física Seminov</h5>
+                            <div class="price-box mt-3">
+                                <span class="d-block fw-bold fs-5">R$ 15,99 à vista</span>
+                                <small class="text-muted">Pagamento único</small>
+                            </div>
+                            <button class="btn btn-dark btn-buy mt-3 w-75 rounded-pill" onclick="adicionarAoCarrinho('Gears of War 3')">COMPRAR</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
+
+        <section class="container py-3">
+            <div class="d-flex justify-content-between align-items-end mb-3">
+                <h2 class="section-title mb-0">Acessórios</h2>
+                
+                <a href="acessorios.html" class="link-ver-mais">Ver mais</a>
+            </div>   
+            <div class="bg-section-accent bg-jogos-acessorios pt-3 pb-5"> 
+
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-5 g-3">
+                <div class="col">
+                    <div class="card h-100 product-card border-0 shadow-sm">
+                        <span class="badge-custom">DE QUALIDADE!</span>
+                        <div class="card-body text-center">
+                            <div class="stars mb-2">★★★★★</div>
+                            <img src="img/cadeirona.png" height="100%" width="100%" class="img-fluid product-img mb-3" alt="Cadeira Gamer">
+                            <h5 class="card-title product-title">Cadeira Office Elements Astra Pro, Até 140Kg</h5>
+                            <div class="price-box mt-3">
+                                <span class="d-block fw-bold fs-5">R$ 1.099,90</span>
+                                <small class="text-muted">10% OFF no PIX</small>
+                            </div>
+                            <button class="btn btn-dark btn-buy mt-3 w-75 rounded-pill" onclick="adicionarAoCarrinho('Cadeira Office')">COMPRAR</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card h-100 product-card border-0 shadow-sm">
+                        <span class="badge-custom">MAIS PEDIDO!</span>
+                        <div class="card-body text-center">
+                            <div class="stars mb-2">★★★★★</div>
+                            <img src="img/l3.png"class="img-fluid product-img mb-3" alt="Lightbar">
+                            <h5 class="card-title product-title">Luminária Led para Monitor Rise Mode Lumina 33cm</h5>
+                            <div class="price-box mt-3">
+                                <span class="d-block fw-bold fs-5">R$ 299,90 à vista</span>
+                                <small class="text-muted">ou 3x de R$ 99,90</small>
+                            </div>
+                            <button class="btn btn-dark btn-buy mt-3 w-75 rounded-pill" onclick="adicionarAoCarrinho('Luminária LED')">COMPRAR</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card h-100 product-card border-0 shadow-sm">
+                        <div class="card-body text-center">
+                            <div class="stars mb-2">★★★★☆</div>
+                            <img src="img/projector.png" width="100%" height="100%" class="img-fluid product-img mb-3" alt="Projetor">
+                            <h5 class="card-title product-title">Projetor de Tela 4k Ultra HD Smart Portátil</h5>
+                            <div class="price-box mt-3">
+                                <span class="d-block fw-bold fs-5">R$ 379,99 à vista</span>
+                                <small class="text-muted">até 10x sem juros</small>
+                            </div>
+                            <button class="btn btn-dark btn-buy mt-3 w-75 rounded-pill" onclick="adicionarAoCarrinho('Projetor 4k')">COMPRAR</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card h-100 product-card border-0 shadow-sm">
+                        <div class="card-body text-center">
+                            <div class="stars mb-2">★★★★☆</div>
+                            <img src="img/caixona de som.png" class="img-fluid product-img mb-3" alt="Caixa de som">
+                            <h5 class="card-title product-title">Caixa de Som Redragon GS500 Stentor LED</h5>
+                            <div class="price-box mt-3">
+                                <span class="d-block fw-bold fs-5">R$ 89,99 à vista</span>
+                                <small class="text-muted">10% OFF no PIX</small>
+                            </div>
+                            <button class="btn btn-dark btn-buy mt-3 w-75 rounded-pill" onclick="adicionarAoCarrinho('Caixa de Som')">COMPRAR</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card h-100 product-card border-0 shadow-sm">
+                        <div class="card-body text-center">
+                            <div class="stars mb-2">★★★★★</div>
+                            <img src="img/base de carregamento.png" width="100%" height="100%" class="img-fluid product-img mb-3" alt="Base Sony">
+                            <h5 class="card-title product-title">Base de Carregamento Sony Para Controle DualSense</h5>
+                            <div class="price-box mt-3">
+                                <span class="d-block fw-bold fs-5">R$ 157,17 à vista</span>
+                                <small class="text-muted">7% de desconto no PIX</small>
+                            </div>
+                            <button class="btn btn-dark btn-buy mt-3 w-75 rounded-pill" onclick="adicionarAoCarrinho('Base Sony')">COMPRAR</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
+
+        <section class="container py-5">
+            <h2 class="section-title mb-4">MARCAS RECOMENDADAS <i class="bi bi-hand-thumbs-up-fill text-primary"></i></h2>
+             <div class="bg-section-accent bg-marcas py-4"> 
+            <div class="d-flex flex-wrap justify-content-center gap-3">
+                <div class="card border-0 shadow-sm brand-card d-flex align-items-center justify-content-center p-3">
+               <img src="img/marca 8bitdo.png" alt="8BitDo" class="img-fluid mb-2" style="max-height: 40px;">
+                    <a href="8BitDo.html" class="btn btn-dark btn-sm rounded-pill mt-auto">VER PRODUTOS ></a>
+                </div>
+                <div class="card border-0 shadow-sm brand-card d-flex align-items-center justify-content-center p-3">
+                <img src="img/sony marca.png" alt="Sony" class="img-fluid mb-2" style="max-height: 35px;">
+                    <a href="sony.html" class="btn btn-dark btn-sm rounded-pill mt-auto">VER PRODUTOS ></a>
+                </div>
+                <div class="card border-0 shadow-sm brand-card d-flex align-items-center justify-content-center p-3">
+                    <img src="img/marca xbox.png" alt="Xbox" class="img-fluid mb-2" style="max-height: 40px;">
+                    <a href="xbox.html" class="btn btn-dark btn-sm rounded-pill mt-auto">VER PRODUTOS ></a>
+                </div>
+                <div class="card border-0 shadow-sm brand-card d-flex align-items-center justify-content-center p-3">
+                    <img src="img/logitech marca.png" alt="Logitech" class="img-fluid mb-2" style="max-height: 35px;">
+                    <a href="logitech.html" class="btn btn-dark btn-sm rounded-pill mt-auto">VER PRODUTOS ></a>
+                </div>
+                <div class="card border-0 shadow-sm brand-card d-flex align-items-center justify-content-center p-3">
+                    <img src="img/marca nintendo.png" alt="Nintendo" class="img-fluid mb-2" style="max-height: 35px;">
+                    <a href="nintendo.html" class="btn btn-dark btn-sm rounded-pill mt-auto">VER PRODUTOS ></a>
+                </div>
+            </div>
+            </div>
+        </section>
+
+    </main>
+
+    <div id="footer-container"></div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script> 
+</body>
+</html>

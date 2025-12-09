@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Mania - Cadastro</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Rajdhani:wght@500;700&family=Russo+One&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <header class="fixed-top">
+        <div class="top-bar bg-custom-dark py-3">
+            <div class="container d-flex align-items-center justify-content-between">
+                
+                <a href="index.html">
+                    <img src="img/LOGO_GAME.png" alt="Logo Game Mania" style="max-height: 50px;">
+                </a>
+
+                <form class="search-container mx-4 flex-grow-1 d-none d-lg-block">
+                    <div class="input-group">
+                        <input class="form-control rounded-pill border-0 px-4 py-2" type="search" placeholder="Pesquisar...">
+                        <button class="btn btn-search-icon position-absolute end-0 top-50 translate-middle-y me-2 rounded-circle" type="button">
+                            <i class="fa-solid fa-magnifying-glass text-dark"></i>
+                        </button>
+                    </div>
+                </form>
+
+                <div class="action-icons d-flex align-items-center gap-3">
+                    <a href="favoritos.html" class="text-white icon-hover"><i class="fa-regular fa-heart fa-lg"></i></a>
+                    
+                    <a href="carrinho.html" class="text-white icon-hover position-relative">
+                        <i class="fa-solid fa-cart-shopping fa-lg"></i>
+                        <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger" style="font-size: 0.6rem;">2</span>
+                    </a>
+                    
+                    <a href="cadastro.html" class="text-white d-flex align-items-center gap-2 text-decoration-none border-start border-secondary ps-3 ms-2">
+                        <i class="fa-regular fa-user-circle fa-2x"></i>
+                        <div class="d-none d-xl-flex flex-column lh-1">
+                            <span style="font-size: 0.75rem; opacity: 0.8;">Entrar ou</span>
+                            <span style="font-size: 0.85rem; font-weight: bold;">Cadastre-se</span>
+                        </div>
+                    </a>
+
+                    <button class="navbar-toggler d-lg-none text-white border-0 ms-2" type="button" data-bs-toggle="collapse" data-bs-target="#menuMobile">
+                        <i class="fa-solid fa-bars fa-2x"></i>
+                    </button>
+                </div>
+            </div>
+
+            <div class="container d-lg-none mt-3">
+                <form class="w-100 position-relative">
+                    <input class="form-control rounded-pill border-0 px-4 py-2" type="search" placeholder="Pesquisar...">
+                    <i class="fa-solid fa-magnifying-glass position-absolute end-0 top-50 translate-middle-y me-3 text-dark"></i>
+                </form>
+            </div>
+        </div>
+
+        <div class="bottom-bar bg-custom-dark border-top border-secondary">
+            <div class="container">
+                <nav class="navbar navbar-expand-lg p-0">
+                    <div class="collapse navbar-collapse justify-content-center" id="menuMobile">
+                        <ul class="navbar-nav py-2 py-lg-0 gap-4">
+                            <li class="nav-item"><a class="nav-link text-uppercase fw-bold" href="index.html">Início</a></li>
+                            <li class="nav-item"><a class="nav-link text-uppercase fw-bold" href="consoles.html">Consoles</a></li>
+                            <li class="nav-item"><a class="nav-link text-uppercase fw-bold" href="perifericos.html">Periféricos</a></li>
+                            <li class="nav-item"><a class="nav-link text-uppercase fw-bold" href="jogos.html">Jogos</a></li>
+                            <li class="nav-item"><a class="nav-link text-uppercase fw-bold" href="acessorios.html">Acessórios</a></li>
+                            <li class="nav-item"><a class="nav-link text-uppercase fw-bold" href="sobrenos.html">Sobre nós</a></li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <div style="margin-top: 50px;"></div>
+
+    <main class="main-registration position-relative d-flex align-items-center justify-content-center py-5">
+
+        <div class="character-wrapper char-left d-none d-xl-block floating-animate" style="bottom: 400px;">
+            <img src="img/zelda.png"
+                alt="Link Zelda">
+        </div>
+
+        <div class="character-wrapper char-right d-none d-xl-block floating-animate delay-animation" style="bottom: 400px;">
+            <img src="img/pikachu.png" alt="Pikachu" height="100%" width="85%">
+        </div>
+
+        <div class="container position-relative z-index-10">
+
+            <div class="text-center mb-4">
+                <h1 class="font-russo text-uppercase display-4 mb-0 fw-bold">Cadastre-se</h1>
+                <p class="font-tech text-uppercase letter-spacing-wide mt-2 fw-bold text-muted">
+                    Crie sua conta e desbloqueie a experiência completa!
+                </p>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-md-10 col-lg-6">
+                    <div class="card card-custom border-0 shadow-lg">
+
+                        <div class="card-header-custom text-center text-white">
+                            <div class="icon-floating">
+                                <i class="fa-solid fa-gamepad"></i>
+                            </div>
+                            <h3 class="mt-4 mb-0 font-tech fw-bold">Criar Perfil</h3>
+                        </div>
+
+                        <div class="card-body p-4 p-md-5 bg-custom-gray">
+                            <div class="text-center mb-4">
+                                <h5 class="fw-bold section-title">Crie sua conta para garantir benefícios especiais</h5>
+                                <small class="text-muted">Adquira acesso a cupons, receba notícias e mais</small>
+                            </div>
+
+                            <form id="registerForm">
+                                <div class="input-group mb-3 custom-input-group">
+                                    <span class="input-group-text"><i class="fa-solid fa-user me-2"></i> Seu nome</span>
+                                    <input type="text" class="form-control" placeholder="Seu Nickname" required>
+                                </div>
+
+                                <div class="input-group mb-3 custom-input-group">
+                                    <span class="input-group-text"><i class="fa-solid fa-envelope me-2"></i> Seu e-mail</span>
+                                    <input type="email" class="form-control" placeholder="player@game.com" required>
+                                </div>
+
+                                <div class="input-group mb-3 custom-input-group">
+                                    <span class="input-group-text"><i class="fa-solid fa-lock me-2"></i> Senha</span>
+                                    <input type="password" class="form-control password-field" placeholder="******" required>
+                                    <span class="input-group-text bg-white border-start-0 cursor-pointer toggle-password" style="background: white !important;">
+                                        <i class="fa-solid fa-eye text-muted"></i>
+                                    </span>
+                                </div>
+
+                                <div class="input-group mb-3 custom-input-group">
+                                    <span class="input-group-text"><i class="fa-solid fa-lock me-2"></i> Confirmar</span>
+                                    <input type="password" class="form-control password-field" placeholder="******" required>
+                                    <span class="input-group-text bg-white border-start-0 cursor-pointer toggle-password" style="background: white !important;">
+                                        <i class="fa-solid fa-eye text-muted"></i>
+                                    </span>
+                                </div>
+
+                                <div class="form-check mb-4">
+                                    <input class="form-check-input" type="checkbox" id="captchaCheck" required>
+                                    <label class="form-check-label text-muted small" for="captchaCheck">
+                                        Verificar Captcha (Não sou um robô)
+                                    </label>
+                                </div>
+
+                                <button type="submit" class="btn btn-primary w-100 fw-bold py-2 rounded-3 btn-gradient text-uppercase font-tech" style="font-size: 1.2rem;">
+                                    Criar Conta Grátis <i class="fa-solid fa-arrow-right ms-2"></i>
+                                </button>
+                            </form>
+
+                            <div class="text-center my-3 position-relative">
+                                <hr class="text-muted">
+                                <span class="bg-custom-gray px-2 text-muted small position-absolute top-50 start-50 translate-middle">ou continue com</span>
+                            </div>
+
+                            <div class="row g-2">
+                                <div class="col-6">
+                                    <button class="btn btn-outline-secondary w-100 bg-white shadow-sm border-0">
+                                        <i class="fa-brands fa-google text-danger me-1"></i> Google
+                                    </button>
+                                </div>
+                                <div class="col-6">
+                                    <button class="btn btn-outline-secondary w-100 bg-white shadow-sm border-0">
+                                        <i class="fa-brands fa-facebook text-primary me-1"></i> Facebook
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row mt-5 text-center justify-content-center">
+                <div class="col-md-9">
+                    <h5 class="fw-bold font-tech text-uppercase">
+                        Aqui, cada jogador tem um espaço especial para explorar novidades, acompanhar
+                        lançamentos, avaliar jogos e construir sua própria jornada gamer.
+                    </h5>
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+    <footer class="bg-custom-footer text-white pt-5 pb-3">
+        <div class="container">
+            <div class="row g-4 mb-5">
+                <div class="col-lg-3 col-md-6">
+                    <div class="footer-badge mb-3">FALE CONOSCO</div>
+                    <ul class="list-unstyled text-small small-text">
+                        <li class="mb-2"><i class="fa-solid fa-phone me-2 text-cyan"></i> (11) 99999-9999</li>
+                        <li class="mb-2"><i class="fa-brands fa-instagram me-2 text-cyan"></i> @gamemania_oficial</li>
+                        <li class="mb-2"><i class="fa-regular fa-envelope me-2 text-cyan"></i> contato@gamemania.com.br</li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="footer-badge mb-3">ATENDIMENTO</div>
+                    <p class="small-text">
+                        08:00 às 20:00 - Segunda a Sexta;<br>
+                        09:00 às 15:00 - Sábado, horário de Brasília<br>
+                        (exceto Domingo e feriados).
+                    </p>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="footer-badge mb-3">ENDEREÇOS</div>
+                    <p class="small-text">
+                        <strong>Loja Física</strong><br>
+                        09:00 às 20:00 - Segunda a Sábado<br>
+                        Brasília (exceto Domingo e feriados)<br>
+                        • Rua Goiás, 430 - Vila Guilherme - São Paulo/ (SP) - 02051-000
+                    </p>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="footer-badge mb-3">POLÍTICAS</div>
+                    <ul class="list-unstyled small-text">
+                        <li><a href="politica.html">Políticas de Cookies</a></li>
+                        <li><a href="privacidade.html">Políticas de Privacidade</a></li>
+                        <li><a href="informaçõesessenciais.html">Informações Essenciais</a></li>
+                        <li><a href="faq.html">FAQ – Perguntas Frequentes</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="text-center mt-4 small text-muted">Game Mania © 2024. Todos os direitos reservados.</div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script2.js"></script>
+</body>
+
+</html>
